@@ -19,8 +19,8 @@ Necesitás primero tener algunas dependencias instaladas:
 
 - [VirtualBox](https://www.virtualbox.org/) (si tu procesador no es arquitectura x86_64, como por ejemplo Apple M1, usá una PC de los labos)
 - [Vagrant](https://www.vagrantup.com/)
-- [curl](https://curl.se/)
-- [bsdtar](https://github.com/libarchive/libarchive)
+- [curl](https://curl.se/) (`sudo apt install curl` en Ubuntu)
+- [bsdtar](https://github.com/libarchive/libarchive) (`sudo apt install bsdtar` en Ubuntu)
 
 Luego, alcanza con ubicarse con la terminal en el mismo directorio que este archivo y ejecutar:
 
