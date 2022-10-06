@@ -15,6 +15,8 @@ Para levantar el entorno de desarrollo **en las PCs de los labos** hay que corre
 wget https://bit.ly/vm-talleres-ssoo -O - | bash
 ```
 
+Cuando el script termine de ejecutar, va a imprimir por pantalla indicaciones.
+
 ### En tu propia PC
 
 Testeado solamente en Linux, MacOS y Windows con arquitectura **Intel**. Si tenés una compu que no tenga arquitectura Intel (por ejemplo las últimas Mac con Apple Silicon), esto NO va a funcionar así que usá una PC de los labos o consultá a la lista de docentes.
