@@ -21,7 +21,7 @@ Testeado solamente en Linux, MacOS y Windows con arquitectura **Intel**. Si ten�
 
 Necesitás primero tener algunas dependencias instaladas:
 
-- [VirtualBox](https://www.virtualbox.org/) (si tu procesador no es arquitectura x86_64, como por ejemplo Apple M1, usá una PC de los labos)
+- [VirtualBox](https://www.virtualbox.org/)
 - [Vagrant](https://www.vagrantup.com/)
 - En Linux y MacOS también instalar:
   - [curl](https://curl.se/) (`sudo apt install curl` en Ubuntu)
