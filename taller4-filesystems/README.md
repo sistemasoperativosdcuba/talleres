@@ -11,7 +11,7 @@
 * Para testear la implementación: 
 
   1. Ir a la carpeta **test** (`cd test`)
-  2. Descomprimir el archivo hdd.raw.xz con el comando `xz hdd.raw.xz`
+  2. Descomprimir el archivo hdd.raw.xz con el comando `unxz hdd.raw.xz`
   3. Compilar con `make`
   4. Ejecutar `./testhdd hdd.raw`
 
