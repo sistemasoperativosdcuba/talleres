@@ -9,6 +9,10 @@ testhdd: testhdd.o ../src/hdd.o ../src/mbr.o ../src/pentry.o ../src/ext2fs.o
 testhdd.o: testhdd.cpp
 	$(CC) $(CFLAGS) $(LDFLAGS) -c $^ -o $@
 
+../src/ext2fs.o: ../src/ext2fs.cpp
+	$(CC) $(CFLAGS) $(LDFLAGS) -c $^ -o $@
+
+
 %.o: %.cpp
 	$(CC) $(CFLAGS) $(LDFLAGS) -c $^ -o $@
 
