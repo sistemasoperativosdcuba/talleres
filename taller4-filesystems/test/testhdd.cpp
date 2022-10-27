@@ -93,10 +93,10 @@ int main(int argc, char ** argv)
 	test_block_groups(fs);
 
 	
-    //Test ejercicios
-    test_load_inode(fs);
-    test_get_block_address(fs);
-    test_get_file_inode_from_dir_inode(fs);
+    // TODO 4
+    // Leer e imprimir en pantalla los primeros 50 chars
+    // guardados en el archivo /grupos/gNUMERO/nota.txt
+    // a partir de la posición 14000 inclusive.
     
 	return 0;
 }
