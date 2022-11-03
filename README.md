@@ -7,6 +7,8 @@ Para los talleres necesitamos que todo el alumnado use el mismo entorno de desar
 
 Pueden usar tanto sus PCs como los laboratorios del 0+i, pero cada caso tiene instrucciones diferentes.
 
+# Talleres 3 y 4
+
 ### Para trabajar en las PCs de los labos del 0+inf
 
 Para levantar el entorno de desarrollo **en las PCs de los labos** hay que correr lo siguiente en una terminal:
@@ -42,3 +44,26 @@ vagrant ssh
 ```
 
 Y eso nos deja con la terminal abierta **dentro** de la VM. Si van al directorio `/vagrant` encontrarán los archivos del directorio actual allí montados, con lo cual pueden abrir y editar los archivos del taller con una IDE o editor de textos gráfico en su PC y compilar y ejecutar dentro de la VM.
+
+# Taller 5 (seguridad informática)
+
+## En las PCs de los labos
+
+1. Ejecutar lo siguiente:
+
+```
+wget https://bit.ly/tallerseginf-O - | bash
+
+```
+
+2. Abrir el programa VirtualBox y encender la VM llamada so-labo-seginf
+
+## En una PC personal
+
+1. Es necesario tener instalado [VirtualBox](https://www.virtualbox.org/).
+
+2. Descargar el [archivo OVA](https://drive.google.com/drive/folders/1SDX0dZgOsTuJwx6QvnLIXP7_Kla0HbES?usp=sharing).
+
+3. Importar el archivo descargado en VirtualBox (Menú Archivo > Importar servicio virtualizado...).
+
+4. Encender la VM importada.
