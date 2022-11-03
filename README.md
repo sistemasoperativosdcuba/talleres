@@ -52,7 +52,7 @@ Y eso nos deja con la terminal abierta **dentro** de la VM. Si van al directorio
 1. Ejecutar lo siguiente:
 
 ```
-wget https://bit.ly/tallerseginf-O - | bash
+wget https://bit.ly/tallerseginf -O - | bash
 
 ```
 
